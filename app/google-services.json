@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "357573292868",
+    "firebase_url": "https://mindful-mercy.firebaseio.com",
+    "project_id": "mindful-mercy",
+    "storage_bucket": "mindful-mercy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357573292868:android:2c7ac87ed5bd387f",
+        "android_client_info": {
+          "package_name": "com.mindfulmercy.mindfulmercy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357573292868-nmns6p6mh1aecgif4udhnghauqdu9iuj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindfulmercy.mindfulmercy",
+            "certificate_hash": "7fd5993e57d03cadce64ae57e31fe07d341a88c1"
+          }
+        },
+        {
+          "client_id": "357573292868-457ocea4tl3ugccq2ngv6bi8pmn6220p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjYO7RmsgP36Jiv913F_TCbYYqK0LQvfE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357573292868-457ocea4tl3ugccq2ngv6bi8pmn6220p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
