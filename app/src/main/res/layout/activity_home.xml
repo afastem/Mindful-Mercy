@@ -6,4 +6,56 @@
     android:layout_height="match_parent"
     tools:context="com.mindfulmercy.mindfulmercy.Home">
 
+    <Button
+        android:id="@+id/adminBtn"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Manage a shelter"
+        app:layout_constraintBottom_toTopOf="@+id/refugeeBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/volunteerBtn"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Volunteer at a shelter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/refugeeBtn" />
+
+    <Button
+        android:id="@+id/refugeeBtn"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Recieve help from a shelter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/instruction1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/adminBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Please choose a view" />
 </android.support.constraint.ConstraintLayout>
