@@ -1,4 +1,4 @@
-package com.mindfulmercy.mindfulmercy;
+/*package com.mindfulmercy.mindfulmercy;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -27,3 +27,4 @@ public class RefugeeLogin extends AppCompatActivity {
     }
 
 }
+*/
